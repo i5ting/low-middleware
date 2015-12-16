@@ -1,5 +1,5 @@
 var low = require('lowdb')
-var storage = require('lowdb/file-sync')
+// var storage = require('lowdb/file-sync')
 
 module.exports = function(req, res, next) {
   req.db = db;
@@ -8,5 +8,5 @@ module.exports = function(req, res, next) {
 }
 
 function db(path) {
-  return low(path, { storage });
+  return low(path);
 }
