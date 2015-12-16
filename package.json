@@ -1,6 +1,6 @@
 {
   "name": "req.db",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "req.db with lowdb",
   "main": "index.js",
   "scripts": {
@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/i5ting/low-middleware.git"
+    "url": "git+https://github.com/i5ting/req.db.git"
   },
   "author": "i5ting",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/i5ting/low-middleware/issues"
+    "url": "https://github.com/i5ting/req.db/issues"
   },
-  "homepage": "https://github.com/i5ting/low-middleware#readme",
+  "homepage": "https://github.com/i5ting/req.db#readme",
   "dependencies": {
+    "low-file-sync": "^1.0.0",
     "lowdb": "^0.11.0"
   }
 }
